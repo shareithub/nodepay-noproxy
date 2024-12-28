@@ -184,7 +184,7 @@ async def run_with_token(token):
 async def main():
     # Load tokens from the file
     try:
-        with open('token_list.txt', 'r') as file:
+        with open('token.txt', 'r') as file:
             tokens = file.read().splitlines()
     except Exception as e:
         logger.error(f"Error reading token list: {e}")
