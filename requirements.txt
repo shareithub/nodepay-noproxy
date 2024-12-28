@@ -4,3 +4,4 @@ loguru
 fake_useragent
 shareithub
 aiohttp
+colorama
