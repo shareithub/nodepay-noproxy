@@ -3,3 +3,4 @@ cloudscraper
 loguru
 fake_useragent
 shareithub
+aiohttp
