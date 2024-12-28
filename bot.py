@@ -2,8 +2,13 @@ import asyncio
 import time
 import uuid
 import cloudscraper
+import requests
 from loguru import logger
 from fake_useragent import UserAgent
+
+from shareithub import HTTPTools, ASCIITools
+
+ASCIITools.print_ascii_intro()
 
 # Constants
 PING_INTERVAL = 60
